@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+/*fieldset {
+padding-top: 50px;
+width: 900px;
+} */
+
+#responseCounter {
+
+  border: 1px solid yellow;
+  border-radius: 10px; 
+  color: white;
+  height: 50px;
+  width: 280px;
+  text-align:center;
+  padding-top: 10px;
+  margin: 30px auto;
+  
+}
+#noResponse {
+
+  text-align:center;
+  font-size: 30px;
+  color: yellow;
+  margin: auto; 
+  width: 280px;
+  height: 80px;
+  background-color: white;
+  border-radius:5px;
+  align-content: center;
+}
+#responseCorrect h3 {
+  text-align:center;
+  font-size: 30px;
+  color: green; 
+  border:1px solid yellow;
+  margin: auto;
+  width: 180px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+ #incorrectScore {
+font-size: 24px;
+}
+
+#responseIncorrect h3 {
+  text-align: center;
+  color:red;
+  font-size: 30px;
+  border:1px solid yellow;
+  margin: auto;
+  width: 180px;
+  background-color: white;
+  border-radius: 20px;
+  }
+  
+
+#correctScore {
+  font-size: 24px;
+}
+
+
+legend {
+
+/*background-color: #6BA3AD*/
+  color: #fff;
+  font-family: "Monaco", "Courier New", courier, monospace;
+  font-size: 20px;
+  margin: 45px auto 20px auto;
+  display: block;
+  border-radius: 4px; 
+  }
+
+  .quizApp {
+    padding:20px;
+    padding-bottom:40px;
+    color: white;
+    font-size:20px;
+  }
+
+  label{
+  
+    font-family: "Monaco", "Courier New", courier, monospace;
+    font-size: 20px;
+    vertical-align:top;
+    color: #fff;
+  }​
+
+  
+body {
+    font-size: 100%;
+    font-family: "Monaco", "Courier New", courier, monospace;
+    /*background-color: #cee8ed;*/
+    text-align: center;
+    padding-right: 20px;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    /*background: url("runnerImage.jpg") , no-repeat;*/
+   }
+
+   .container {
+    min-height: 100%;
+    background: blue;
+    /*background: url("https://cbsboston.files.wordpress.com/2017/11/flanagan.jpg");*/;
+    /*background: url("http://nationals.org.au/wp-content/uploads/2016/06/Depositphotos_5295468_original-e1465172419868.jpg");*/
+        /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  input {
+  
+    width: 100px;
+    height: 20px;
+    background-color: #6BA3AD;
+    font-size: 17px;
+    margin: 0 auto 20px auto;
+    color:#fff; 
+  }
+  
+  .startPage {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30;
+    width: 100;
+    font-family: "Monaco", "Courier New", courier, monospace;
+    /*color: #fff;*/
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    background: #6BA3AD;
+  }
+
+  
+.hidden {
+  display: none;
+  }
+
+.showBlock{
+  display:block;
+}
+    
+.startPage:hover {
+    cursor: pointer;
+}
+
+.submit-button {
+  border-radius: 10px;
+  font-size: 20px;
+  height: 30;
+  width: 120;
+  margin: 50px auto; 
+}
+
+.submit-button:hover {
+    cursor: pointer;
+  }
+  
+  .next-button {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 30;
+    width: 120;
+    margin: 0 auto;
+    color: #fff;
+  }
+  .retry {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40;
+    width: 200;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  #finalScore {
+   text-align: center;
+   width: 180px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   color: blue;
+   margin: auto;
+  }
+
+  .finalResult {
+    display: inline;
+    margin: 70 auto; 
+    text-align: center;
+    background: gray;
+    color: white; 
+    }
+
+
+  @media (max-width: 320px) {
+    .element {
+          height: 90%;   
+         }
+    }  
